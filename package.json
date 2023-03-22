@@ -20,9 +20,12 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "homepage":  "http://saivikasdev.github.io/haswit-_admin"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
