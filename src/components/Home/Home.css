@@ -1,0 +1,23 @@
+.Top_row{
+   display: flex;
+   flex-direction: row;
+}
+.Middle_row{
+   display: flex;
+   flex-direction: row;
+}
+
+.Middle_column{
+   display: flex;
+flex-direction: column;
+
+}
+
+
+@media screen and (max-width: 800px) {
+   .Top_row{
+      display: flex;
+      flex-direction: column;
+   }
+   
+}

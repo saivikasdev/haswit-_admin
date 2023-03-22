@@ -1,0 +1,33 @@
+.Jobs{
+    
+}
+.jobs_title{
+    
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 35px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.Job_card_grid{
+    margin-left: 2vw;
+    gap: 5vw;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.job_details{
+    
+   background-color: #222222;
+   border-radius: 10px;
+   margin: 20px;
+   color: white;
+   font-size: 20px;
+}
+
+@media (max-width: 800px) {
+
+.Job_card_grid{
+}
+}

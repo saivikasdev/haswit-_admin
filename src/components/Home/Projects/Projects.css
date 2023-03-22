@@ -1,0 +1,39 @@
+.Projects{
+   margin: 70px;
+}
+.Form_column{
+   gap: 10px;
+   display: flex;
+   flex-direction: column;
+}
+.Add_project_form{
+   gap: 30px;
+   display: flex;
+   flex-direction: row;
+}
+.Project_name,.points,.end_date_{
+   background-color: #222222;
+   border-radius: 10px;
+   padding: 20px; 
+   color: white;
+
+   font-size: 20px;
+}
+.project_details{
+   background-color: #222222;
+   border-radius: 10px;
+   padding: 20px;
+   color: white;
+   width: 68vw;
+   font-size: 20px;
+}
+.add_project{
+   background-color: blueviolet;
+   padding: 25px;
+   border-radius: 10px;
+   color: white;
+}
+.upload{
+   color: aliceblue;
+   background-color: blueviolet;
+}

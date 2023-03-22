@@ -1,0 +1,32 @@
+.Project_card{
+   width: 95vw;
+   display: flex;
+   flex-direction: row;
+   height: 120px;
+   background-color: #222222;
+   margin-bottom:20px ;
+   justify-content: space-evenly;
+}
+.project_desc{
+   width: 30%;
+   overflow-y: scroll;
+
+}
+.profile_image__{
+   width: 60px;
+}
+.Project_name{
+   font-size: larger;
+}
+.Edit{
+   background-color: blueviolet;
+   height: 50px;
+   padding: 10px;
+   text-align: center;
+   cursor: pointer;
+}
+
+.image_link{
+   width: 30%;
+   overflow: scroll;
+}

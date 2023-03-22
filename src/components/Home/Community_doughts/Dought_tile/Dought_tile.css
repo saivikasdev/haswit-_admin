@@ -1,0 +1,72 @@
+.Doughted_student_{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   font-size: small;
+   font-weight: 500;
+   text-transform: capitalize;
+   background-color: #292929;
+   padding: 10px;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   border-top-left-radius: 40px;
+   width: fit-content;
+   margin-top: 5px;
+}
+.dought_title_row{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+.no_of_answers{
+   font-size: medium;
+   font-weight: 600;
+   text-transform: capitalize;
+   background-color: #222222;
+   border-radius: 20px;
+   padding: 10px;
+}
+.Doughted_student_:hover{
+   background-color: rgb(27, 27, 27);
+   cursor: pointer;
+}
+.profile_image__{
+   width: 30px;
+}
+.Dought_tile{
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-top-left-radius: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.261);
+   background-color: #222222;  
+   margin: 20px;
+   padding: 20px;
+   display: flex;
+   width: 50vw;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.Dought_tile:hover{
+   
+   border: 1px solid rgba(137, 0, 201, 0.776);
+}
+.dought_title_container{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.Answer_button{
+background-color: blueviolet;
+padding: 10px;
+border-radius: 20px;
+height: 50px;
+text-align: center;
+margin-left: 10px;
+cursor: pointer;
+}
